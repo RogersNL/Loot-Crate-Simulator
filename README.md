@@ -1,6 +1,5 @@
 # LootCrateSimulator
 
-<<<<<<< HEAD
 This program was designed to emulate the high octane experience of earning and using loot crates. Everyone knows that everyone loves loot, especially when it comes out of a crate and or box like object.
 
 ## Authorship
@@ -15,7 +14,7 @@ This program was designed to emulate the high octane experience of earning and u
 #### Installation Instructions
   * Site is hosted at:
 
-  * Clone repository from https://github.com/RandyWeyer/LootCrateSimulator
+  * Clone repository from https://github.com/RogersNL/Loot-Crate-Simulator
   * Navigate to root folder in console and run npm install
   * Run ng serve
   * Navigate to localhost:4200 in your browser
@@ -56,6 +55,3 @@ Before running the tests make sure you are serving the app via `ng serve`.
 ## Further help
 
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
-# LootCrateSimulator
-# LootCrateSimulator
->>>>>>> e8be45b7668b47af90f37a6be22eba5bc56e1e30

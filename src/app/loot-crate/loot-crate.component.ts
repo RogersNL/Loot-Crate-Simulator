@@ -83,7 +83,7 @@ export class LootCrateComponent implements OnInit {
       this.lootArray = player.playerLoot;
       if(buyAmount === 100){
          console.log(buyAmount)
-       this.playAudio();
+       // this.playAudio();
        }
       for(let i = 0; i < buyAmount; i ++){
         this.shopLoot = this.playerService.generateShopCrate();

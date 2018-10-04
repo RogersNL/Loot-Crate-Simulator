@@ -165,7 +165,7 @@ export class BattleComponent implements OnInit {
           if(this.currentLevelEnemy.hitPoints <=0){
             this.percentHealth = 0;
           } else {
-            this.percentHealth = Math.floor(this.currentLevelEnemy.hitPoints*100/this.enemyHitPoints(player));
+            // this.percentHealth = Math.floor(this.currentLevelEnemy.hitPoints*100/this.enemyHitPoints(player));
           }
         }
         if(Math.ceil(this.currentLevelEnemy.hitPoints) <= 0) {
@@ -185,7 +185,7 @@ export class BattleComponent implements OnInit {
             if(this.currentLevelEnemy.hitPoints <=0){
               this.percentHealth = 0;
             } else {
-              this.percentHealth = Math.floor(this.currentLevelEnemy.hitPoints*100/this.enemyHitPoints(player));
+              // this.percentHealth = Math.floor(this.currentLevelEnemy.hitPoints*100/this.enemyHitPoints(player));
             }
           }
           if(Math.ceil(this.currentLevelEnemy.hitPoints) <= 0) {
@@ -206,7 +206,7 @@ export class BattleComponent implements OnInit {
     if(this.currentLevelEnemy.hitPoints <= 20 ){
       return "";
     } else {
-      return "animated fadeInLeft delay-1s";
+      return "animated";
     }
   }
   setBackground(){
